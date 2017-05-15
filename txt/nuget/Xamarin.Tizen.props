@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <NugetReference Include="Xamarin.Forms.Platform.Tizen, Version=0.0.1.0, Culture=neutral">
+      <Package>Xamarin.Forms.Platform.Tizen</Package>
+      <Version>2.3.4-r214-002</Version>
+      <HintPath>$(NugetPackagesDir)Xamarin.Forms.Platform.Tizen.2.3.4-r214-002\lib\netstandard1.6\Xamarin.Forms.Platform.Tizen.dll</HintPath>
+      <Private>$(PrivateReference)</Private>
+    </NugetReference>
+    <NugetReference Include="ElmSharp, Version=1.0.0.0, Culture=neutral">
+      <Package>ElmSharp</Package>
+      <Version>1.1.0-beta-021</Version>
+      <HintPath>$(NugetPackagesDir)ElmSharp.1.1.0-beta-021\lib\netstandard1.3\ElmSharp.dll</HintPath>
+      <Private>$(PrivateReference)</Private>
+    </NugetReference>
+  </ItemGroup>
+</Project>

@@ -118,6 +118,10 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = ".repo", "..\.repo.shproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarouselView.Package", "src\carouselView\nuget\Package\CarouselView.Package.csproj", "{F7F9D3A8-F71E-4428-913F-C37AE82CDB2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarouselView.Tizen", "src\carouselView\dev\lib\platform\tizen\CarouselView.Tizen.csproj", "{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CarouselView.Shared.Tizen", "src\carouselView\dev\Shared.Tizen\CarouselView.Shared.Tizen.shproj", "{56095197-D63B-427D-8C13-52BAE6C6C592}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		src\carouselView\test\Shared.Gallery\CarouselView.Shared.Gallery.projitems*{0f19d2d6-fea3-49cb-aa4a-cc3ceb4af60a}*SharedItemsImports = 4
@@ -127,6 +131,7 @@ Global
 		..\.repo.projitems*{384c5272-e40d-4849-93c8-e489912b7d1b}*SharedItemsImports = 13
 		src\carouselView\test\Shared.UITest\CarouselView.Shared.UITest.projitems*{3d26ba02-50f8-4956-94c3-0c0a9cc139a1}*SharedItemsImports = 4
 		src\carouselView\dev\Shared\CarouselView.Shared.projitems*{4d41275b-0f73-4a92-8ee9-b3c54a82bf08}*SharedItemsImports = 4
+		src\carouselView\dev\Shared.Tizen\CarouselView.Shared.Tizen.projitems*{56095197-d63b-427d-8c13-52bae6c6c592}*SharedItemsImports = 13
 		src\carouselView\dev\Shared\CarouselView.Shared.projitems*{5b6b47c0-6e5b-41f8-8a89-1b010f7c59aa}*SharedItemsImports = 4
 		src\carouselView\dev\Shared.Windows\CarouselView.Shared.Windows.projitems*{5c58327f-31f3-4de9-924d-e940e9a49609}*SharedItemsImports = 13
 		src\carouselView\dev\Shared\CarouselView.Shared.projitems*{5cafe153-11c7-4cbd-acff-252458a02bf2}*SharedItemsImports = 4
@@ -136,6 +141,7 @@ Global
 		src\carouselView\test\Shared.UITest\CarouselView.Shared.UITest.projitems*{96f54817-da0a-4f40-a69c-0040bf5be95d}*SharedItemsImports = 4
 		src\carouselView\dev\Shared\CarouselView.Shared.projitems*{bec76a98-b4be-417b-909f-c4b5f545d320}*SharedItemsImports = 4
 		src\carouselView\test\Shared.Gallery\CarouselView.Shared.Gallery.projitems*{c47cbd87-5f08-4123-94b7-051fe68e1525}*SharedItemsImports = 4
+		src\carouselView\dev\Shared\CarouselView.Shared.projitems*{cca839ed-f298-4f90-b2d3-5eded25c8e95}*SharedItemsImports = 4
 		src\carouselView\dev\Shared\CarouselView.Shared.projitems*{d5f2c2c7-a1a1-4286-a6ac-682177bfaa01}*SharedItemsImports = 4
 		src\carouselView\dev\Shared\CarouselView.Shared.projitems*{e1ac2116-7860-476e-896e-fef198b75cf3}*SharedItemsImports = 13
 		src\carouselView\test\Shared.Gallery\CarouselView.Shared.Gallery.projitems*{ec3ead5b-1c3d-4daa-8f6e-52085203bebb}*SharedItemsImports = 4
@@ -419,6 +425,22 @@ Global
 		{F7F9D3A8-F71E-4428-913F-C37AE82CDB2F}.Release|ARM.ActiveCfg = release|Any CPU
 		{F7F9D3A8-F71E-4428-913F-C37AE82CDB2F}.Release|x64.ActiveCfg = release|Any CPU
 		{F7F9D3A8-F71E-4428-913F-C37AE82CDB2F}.Release|x86.ActiveCfg = release|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Debug|AnyCPU.ActiveCfg = Debug|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Debug|AnyCPU.Build.0 = Debug|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Debug|ARM.Build.0 = Debug|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Debug|x64.Build.0 = Debug|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Debug|x86.Build.0 = Debug|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Release|AnyCPU.ActiveCfg = Release|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Release|AnyCPU.Build.0 = Release|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Release|ARM.ActiveCfg = Release|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Release|ARM.Build.0 = Release|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Release|x64.ActiveCfg = Release|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Release|x64.Build.0 = Release|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Release|x86.ActiveCfg = Release|Any CPU
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -459,5 +481,7 @@ Global
 		{8E9C4286-1AFB-48A6-AB17-180E14F47A9E} = {7318DCA7-1D22-442C-953F-6C1805EA0EF1}
 		{C4C3E202-9A8A-4424-9167-514101DB2459} = {A072F618-8274-491F-9044-4CB0F99BD8C7}
 		{F7F9D3A8-F71E-4428-913F-C37AE82CDB2F} = {40499ADB-243A-4913-A7D9-757B244D24CF}
+		{CCA839ED-F298-4F90-B2D3-5EDED25C8E95} = {21D88823-AAF6-4CB3-8938-C5305C5E4026}
+		{56095197-D63B-427D-8C13-52BAE6C6C592} = {A8843C3E-8C72-4E32-B0E4-DE702700F5D3}
 	EndGlobalSection
 EndGlobal
